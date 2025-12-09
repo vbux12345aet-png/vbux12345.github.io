@@ -1,0 +1,11 @@
+body { font-family: Arial, sans-serif; background:#0f1720; color:#e6eef6; margin:0; padding:0; }
+header { text-align:center; padding:24px 12px; background:linear-gradient(90deg,#0b1220,#123); }
+h1 { margin:0 0 8px 0; font-size:32px; }
+main { max-width:900px; margin:28px auto; padding:0 12px; }
+.games { display:flex; gap:16px; flex-wrap:wrap; justify-content:center; }
+.game-card { background:#071126; padding:16px; border-radius:10px; width:260px; box-shadow:0 6px 18px rgba(0,0,0,0.6); text-align:center; }
+.play-btn { display:inline-block; margin-top:10px; padding:10px 14px; border-radius:8px; text-decoration:none; background:#1f8efa; color:white; }
+.play-btn.disabled { background:#3b4450; opacity:0.7; cursor:not-allowed; }
+.instructions { margin-top:24px; background:#071126; padding:12px; border-radius:8px; }
+footer { text-align:center; padding:18px; color:#9fb2c8; }
+code { background:#071a2a; padding:2px 6px; border-radius:4px; color:#cfe8ff;}
